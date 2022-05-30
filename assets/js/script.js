@@ -247,6 +247,7 @@ function init() {
     welcomeScreenRender();
     button1El.addEventListener("click", function() {
         mode = 1;
+        button1El.innerHTML = "Loading...";
         mainGame();
     })
     
